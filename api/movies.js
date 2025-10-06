@@ -4,5 +4,5 @@ export default async function handler(req, res) {
     `http://www.omdbapi.com/?apikey=${process.env.OMDB_API_KEY}&s=${query}`
   );
   const data = await response.json();
-  res.status(200).json();
+  res.status(200).json(data);
 }
