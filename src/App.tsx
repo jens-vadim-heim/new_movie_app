@@ -38,6 +38,7 @@ export default function App() {
     try {
       const response = await fetch(`/api/movies?query=${query}`);
       const json = await response.json();
+      console.log(json);
       if (json.Response === "True") {
         setMovies(json.Search);
       } else {
