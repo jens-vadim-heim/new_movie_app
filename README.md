@@ -8,7 +8,8 @@ Check it out here: new-movie-app-red.vercel.app
 - Write something in the input field on the main page and press search
 - Browse through the results
 - Clicking on a movie card opens up a modal containing the movie poster, title and release year, while darkening blurring and darkening everything else
-- Pressing the Heart icon ona  movie card adds/removes that movie from the favorites list
+- Pressing the Heart icon on a movie card adds/removes that movie from the favorites list
+- Toggle between grid and row view when showing the results/favorites
 
 
 ## Tech stack
