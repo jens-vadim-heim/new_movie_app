@@ -46,6 +46,7 @@ export default function App() {
       }
     } catch (error) {
       console.error(error);
+      alert(JSON.stringify(error));
       setMovies([]);
     } finally {
       setIsLoading(false);
